@@ -1,0 +1,323 @@
+2019-07-24 22:29:49.703 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-07-24 22:29:50.252 +08:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-07-24 22:29:50.284 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-07-24 22:29:50.534 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-07-24 22:29:50.600 +08:00 [INF] Executed DbCommand (24ms) [Parameters=[@p0='?' (Size = 2), @p1='?' (Size = 1)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Authorithitems" ("AuthorityName", "AuthorityValue")
+VALUES (@p0, @p1);
+SELECT "Id"
+FROM "Authorithitems"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.611 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 2), @p1='?' (Size = 1)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Authorithitems" ("AuthorityName", "AuthorityValue")
+VALUES (@p0, @p1);
+SELECT "Id"
+FROM "Authorithitems"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.612 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 2), @p1='?' (Size = 1)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Authorithitems" ("AuthorityName", "AuthorityValue")
+VALUES (@p0, @p1);
+SELECT "Id"
+FROM "Authorithitems"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.613 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 2), @p1='?' (Size = 1)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Authorithitems" ("AuthorityName", "AuthorityValue")
+VALUES (@p0, @p1);
+SELECT "Id"
+FROM "Authorithitems"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.614 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?', @p1='?', @p2='?' (Size = 8), @p3='?', @p4='?', @p5='?', @p6='?' (Size = 3), @p7='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Dictionaries" ("CreateBy", "CreationDate", "DataCode", "EnglishName", "LastUpdate", "LastUpdateBy", "NativeName", "TypeCode")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT "Id"
+FROM "Dictionaries"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.615 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?', @p1='?', @p2='?' (Size = 3), @p3='?', @p4='?', @p5='?', @p6='?' (Size = 2), @p7='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Dictionaries" ("CreateBy", "CreationDate", "DataCode", "EnglishName", "LastUpdate", "LastUpdateBy", "NativeName", "TypeCode")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT "Id"
+FROM "Dictionaries"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.615 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?', @p1='?', @p2='?' (Size = 1), @p3='?', @p4='?', @p5='?', @p6='?' (Size = 1), @p7='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Dictionaries" ("CreateBy", "CreationDate", "DataCode", "EnglishName", "LastUpdate", "LastUpdateBy", "NativeName", "TypeCode")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT "Id"
+FROM "Dictionaries"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.616 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?', @p1='?', @p2='?' (Size = 2), @p3='?', @p4='?', @p5='?', @p6='?' (Size = 2), @p7='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Dictionaries" ("CreateBy", "CreationDate", "DataCode", "EnglishName", "LastUpdate", "LastUpdateBy", "NativeName", "TypeCode")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT "Id"
+FROM "Dictionaries"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.617 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?', @p1='?', @p2='?' (Size = 2), @p3='?', @p4='?', @p5='?', @p6='?' (Size = 2), @p7='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Dictionaries" ("CreateBy", "CreationDate", "DataCode", "EnglishName", "LastUpdate", "LastUpdateBy", "NativeName", "TypeCode")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT "Id"
+FROM "Dictionaries"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.618 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?', @p1='?', @p2='?' (Size = 6), @p3='?', @p4='?', @p5='?', @p6='?' (Size = 2), @p7='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Dictionaries" ("CreateBy", "CreationDate", "DataCode", "EnglishName", "LastUpdate", "LastUpdateBy", "NativeName", "TypeCode")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT "Id"
+FROM "Dictionaries"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.618 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 4), @p1='?' (Size = 2)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "DictionaryTypes" ("TypeCode", "TypeName")
+VALUES (@p0, @p1);
+SELECT "Id"
+FROM "DictionaryTypes"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.619 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 4), @p1='?' (Size = 2)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "DictionaryTypes" ("TypeCode", "TypeName")
+VALUES (@p0, @p1);
+SELECT "Id"
+FROM "DictionaryTypes"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.619 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 11), @p1='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Groups" ("GroupCode", "GroupName")
+VALUES (@p0, @p1);
+SELECT "Id"
+FROM "Groups"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.620 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 11), @p1='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Groups" ("GroupCode", "GroupName")
+VALUES (@p0, @p1);
+SELECT "Id"
+FROM "Groups"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.621 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?', @p1='?', @p2='?' (Size = 9), @p3='?' (Size = 4), @p4='?' (Size = 26), @p5='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Menus" ("MenuAuthorities", "MenuCaption", "MenuCode", "MenuName", "MenuNameSpace", "ParentName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT "Id"
+FROM "Menus"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.622 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?', @p1='?' (Size = 6), @p2='?' (Size = 8), @p3='?' (Size = 4), @p4='?' (Size = 26), @p5='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Menus" ("MenuAuthorities", "MenuCaption", "MenuCode", "MenuName", "MenuNameSpace", "ParentName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT "Id"
+FROM "Menus"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.622 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?', @p1='?' (Size = 8), @p2='?' (Size = 14), @p3='?' (Size = 4), @p4='?' (Size = 32), @p5='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Menus" ("MenuAuthorities", "MenuCaption", "MenuCode", "MenuName", "MenuNameSpace", "ParentName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT "Id"
+FROM "Menus"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.622 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?', @p1='?' (Size = 6), @p2='?' (Size = 8), @p3='?' (Size = 4), @p4='?' (Size = 25), @p5='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Menus" ("MenuAuthorities", "MenuCaption", "MenuCode", "MenuName", "MenuNameSpace", "ParentName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT "Id"
+FROM "Menus"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.623 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 5), @p1='?' (Size = 3), @p2='?', @p3='?', @p4='?', @p5='?', @p6='?', @p7='?', @p8='?', @p9='?', @p10='?' (Size = 3), @p11='?', @p12='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("Account", "Address", "CreateTime", "Email", "FlagAdmin", "FlagOnline", "IsLocked", "LastLoginTime", "LastLogouTime", "LoginCounter", "Password", "Tel", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+SELECT "Id"
+FROM "Users"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.624 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 3), @p1='?' (Size = 3), @p2='?', @p3='?', @p4='?', @p5='?', @p6='?', @p7='?', @p8='?', @p9='?', @p10='?' (Size = 3), @p11='?', @p12='?' (Size = 2)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("Account", "Address", "CreateTime", "Email", "FlagAdmin", "FlagOnline", "IsLocked", "LastLoginTime", "LastLogouTime", "LoginCounter", "Password", "Tel", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+SELECT "Id"
+FROM "Users"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.624 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 2), @p1='?' (Size = 2), @p2='?', @p3='?', @p4='?', @p5='?', @p6='?', @p7='?', @p8='?', @p9='?', @p10='?' (Size = 3), @p11='?', @p12='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("Account", "Address", "CreateTime", "Email", "FlagAdmin", "FlagOnline", "IsLocked", "LastLoginTime", "LastLogouTime", "LoginCounter", "Password", "Tel", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+SELECT "Id"
+FROM "Users"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.624 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 2), @p1='?' (Size = 2), @p2='?', @p3='?', @p4='?', @p5='?', @p6='?', @p7='?', @p8='?', @p9='?', @p10='?' (Size = 3), @p11='?', @p12='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("Account", "Address", "CreateTime", "Email", "FlagAdmin", "FlagOnline", "IsLocked", "LastLoginTime", "LastLogouTime", "LoginCounter", "Password", "Tel", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+SELECT "Id"
+FROM "Users"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.625 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 4), @p1='?' (Size = 2), @p2='?', @p3='?', @p4='?', @p5='?', @p6='?', @p7='?', @p8='?', @p9='?', @p10='?' (Size = 3), @p11='?', @p12='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("Account", "Address", "CreateTime", "Email", "FlagAdmin", "FlagOnline", "IsLocked", "LastLoginTime", "LastLogouTime", "LoginCounter", "Password", "Tel", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+SELECT "Id"
+FROM "Users"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.625 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 5), @p1='?' (Size = 2), @p2='?', @p3='?', @p4='?', @p5='?', @p6='?', @p7='?', @p8='?', @p9='?', @p10='?' (Size = 3), @p11='?', @p12='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("Account", "Address", "CreateTime", "Email", "FlagAdmin", "FlagOnline", "IsLocked", "LastLoginTime", "LastLogouTime", "LoginCounter", "Password", "Tel", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+SELECT "Id"
+FROM "Users"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-07-24 22:29:50.785 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-24 22:29:51.325 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-07-24 22:29:51.789 +08:00 [INF] Request finished in 464.3383ms 200 text/html
+2019-07-24 22:29:52.383 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-07-24 22:29:52.538 +08:00 [INF] Request finished in 154.7519ms 200 application/json;charset=utf-8
+2019-07-24 22:30:05.588 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/api/Authorithitem  
+2019-07-24 22:30:05.628 +08:00 [INF] Route matched with {action = "Get", controller = "Authorithitem"}. Executing action ZFS.Api.Controls.AuthorithitemController.Get (ZFS.Api)
+2019-07-24 22:30:05.933 +08:00 [INF] Executing action method ZFS.Api.Controls.AuthorithitemController.Get (ZFS.Api) - Validation state: "Valid"
+2019-07-24 22:30:05.958 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-07-24 22:30:06.032 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-07-24 22:30:06.035 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AuthorityName", "a"."AuthorityValue"
+FROM "Authorithitems" AS "a"
+2019-07-24 22:30:06.047 +08:00 [INF] Executed action method ZFS.Api.Controls.AuthorithitemController.Get (ZFS.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 109.35520000000001ms.
+2019-07-24 22:30:06.059 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ZFS.Core.Entity.Authorithitem, ZFS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-07-24 22:30:06.091 +08:00 [INF] Executed action ZFS.Api.Controls.AuthorithitemController.Get (ZFS.Api) in 457.34040000000005ms
+2019-07-24 22:30:06.092 +08:00 [INF] Request finished in 503.2071ms 200 application/json; charset=utf-8
+2019-07-24 22:30:15.479 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/api/Dictionary  
+2019-07-24 22:30:15.493 +08:00 [INF] Route matched with {action = "Get", controller = "Dictionary"}. Executing action ZFS.Api.Controls.DictionaryController.Get (ZFS.Api)
+2019-07-24 22:30:15.563 +08:00 [INF] Executing action method ZFS.Api.Controls.DictionaryController.Get (ZFS.Api) - Validation state: "Valid"
+2019-07-24 22:30:15.570 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-07-24 22:30:15.605 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-07-24 22:30:15.607 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "d"."Id", "d"."CreateBy", "d"."CreationDate", "d"."DataCode", "d"."EnglishName", "d"."LastUpdate", "d"."LastUpdateBy", "d"."NativeName", "d"."TypeCode"
+FROM "Dictionaries" AS "d"
+2019-07-24 22:30:15.616 +08:00 [INF] Executed action method ZFS.Api.Controls.DictionaryController.Get (ZFS.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 51.6755ms.
+2019-07-24 22:30:15.617 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ZFS.Core.Entity.Dictionary, ZFS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-07-24 22:30:15.633 +08:00 [INF] Executed action ZFS.Api.Controls.DictionaryController.Get (ZFS.Api) in 139.0261ms
+2019-07-24 22:30:15.634 +08:00 [INF] Request finished in 155.2343ms 200 application/json; charset=utf-8
+2019-07-24 22:30:20.734 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/api/DictionaryType  
+2019-07-24 22:30:20.740 +08:00 [INF] Route matched with {action = "Get", controller = "DictionaryType"}. Executing action ZFS.Api.Controls.DictionaryTypeController.Get (ZFS.Api)
+2019-07-24 22:30:20.771 +08:00 [INF] Executing action method ZFS.Api.Controls.DictionaryTypeController.Get (ZFS.Api) - Validation state: "Valid"
+2019-07-24 22:30:20.773 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-07-24 22:30:20.786 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-07-24 22:30:20.787 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "d"."Id", "d"."TypeCode", "d"."TypeName"
+FROM "DictionaryTypes" AS "d"
+2019-07-24 22:30:20.790 +08:00 [INF] Executed action method ZFS.Api.Controls.DictionaryTypeController.Get (ZFS.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 18.232300000000002ms.
+2019-07-24 22:30:20.790 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ZFS.Core.Entity.DictionaryType, ZFS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-07-24 22:30:20.794 +08:00 [INF] Executed action ZFS.Api.Controls.DictionaryTypeController.Get (ZFS.Api) in 54.3851ms
+2019-07-24 22:30:20.795 +08:00 [INF] Request finished in 60.6776ms 200 application/json; charset=utf-8
+2019-07-24 22:30:25.877 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/api/Group  
+2019-07-24 22:30:25.884 +08:00 [INF] Route matched with {action = "Get", controller = "Group"}. Executing action ZFS.Api.Controls.GroupController.Get (ZFS.Api)
+2019-07-24 22:30:25.918 +08:00 [INF] Executing action method ZFS.Api.Controls.GroupController.Get (ZFS.Api) - Validation state: "Valid"
+2019-07-24 22:30:25.921 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-07-24 22:30:25.933 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-07-24 22:30:25.934 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "g"."Id", "g"."GroupCode", "g"."GroupName"
+FROM "Groups" AS "g"
+2019-07-24 22:30:25.936 +08:00 [INF] Executed action method ZFS.Api.Controls.GroupController.Get (ZFS.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 17.8505ms.
+2019-07-24 22:30:25.936 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ZFS.Core.Entity.Group, ZFS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-07-24 22:30:25.940 +08:00 [INF] Executed action ZFS.Api.Controls.GroupController.Get (ZFS.Api) in 56.102000000000004ms
+2019-07-24 22:30:25.941 +08:00 [INF] Request finished in 63.3895ms 200 application/json; charset=utf-8
+2019-07-24 22:30:32.016 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/api/GroupFunc  
+2019-07-24 22:30:32.021 +08:00 [INF] Route matched with {action = "Get", controller = "GroupFunc"}. Executing action ZFS.Api.Controls.GroupFuncController.Get (ZFS.Api)
+2019-07-24 22:30:32.047 +08:00 [INF] Executing action method ZFS.Api.Controls.GroupFuncController.Get (ZFS.Api) - Validation state: "Valid"
+2019-07-24 22:30:32.049 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-07-24 22:30:32.061 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-07-24 22:30:32.062 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "g"."Id", "g"."Authorities", "g"."GroupCode", "g"."MenuCode"
+FROM "GroupFuncs" AS "g"
+2019-07-24 22:30:32.066 +08:00 [INF] Executed action method ZFS.Api.Controls.GroupFuncController.Get (ZFS.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 19.396800000000002ms.
+2019-07-24 22:30:32.067 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ZFS.Core.Entity.GroupFunc, ZFS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-07-24 22:30:32.070 +08:00 [INF] Executed action ZFS.Api.Controls.GroupFuncController.Get (ZFS.Api) in 49.388600000000004ms
+2019-07-24 22:30:32.071 +08:00 [INF] Request finished in 54.6787ms 200 application/json; charset=utf-8
+2019-07-24 22:30:38.144 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/api/GroupUser  
+2019-07-24 22:30:38.150 +08:00 [INF] Route matched with {action = "Get", controller = "GroupUser"}. Executing action ZFS.Api.Controls.GroupUserController.Get (ZFS.Api)
+2019-07-24 22:30:38.190 +08:00 [INF] Executing action method ZFS.Api.Controls.GroupUserController.Get (ZFS.Api) - Validation state: "Valid"
+2019-07-24 22:30:38.193 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-07-24 22:30:38.206 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-07-24 22:30:38.207 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "g"."Id", "g"."Account", "g"."GroupCode"
+FROM "GroupUsers" AS "g"
+2019-07-24 22:30:38.216 +08:00 [INF] Executed action method ZFS.Api.Controls.GroupUserController.Get (ZFS.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 25.161900000000003ms.
+2019-07-24 22:30:38.216 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ZFS.Core.Entity.GroupUser, ZFS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-07-24 22:30:38.220 +08:00 [INF] Executed action ZFS.Api.Controls.GroupUserController.Get (ZFS.Api) in 69.2479ms
+2019-07-24 22:30:38.220 +08:00 [INF] Request finished in 76.4449ms 200 application/json; charset=utf-8
+2019-07-24 22:30:44.839 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/api/Loginlog  
+2019-07-24 22:30:44.845 +08:00 [INF] Route matched with {action = "Get", controller = "Loginlog"}. Executing action ZFS.Api.Controls.LoginlogController.Get (ZFS.Api)
+2019-07-24 22:30:44.884 +08:00 [INF] Executing action method ZFS.Api.Controls.LoginlogController.Get (ZFS.Api) - Validation state: "Valid"
+2019-07-24 22:30:44.887 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-07-24 22:30:44.900 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-07-24 22:30:44.901 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."Id", "l"."Account", "l"."CurrentTime"
+FROM "LoginLogs" AS "l"
+2019-07-24 22:30:44.903 +08:00 [INF] Executed action method ZFS.Api.Controls.LoginlogController.Get (ZFS.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 18.0974ms.
+2019-07-24 22:30:44.903 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ZFS.Core.Entity.LoginLog, ZFS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-07-24 22:30:44.906 +08:00 [INF] Executed action ZFS.Api.Controls.LoginlogController.Get (ZFS.Api) in 60.292500000000004ms
+2019-07-24 22:30:44.906 +08:00 [INF] Request finished in 67.0799ms 200 application/json; charset=utf-8
+2019-07-24 22:30:49.115 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/api/Menu  
+2019-07-24 22:30:49.119 +08:00 [INF] Route matched with {action = "Get", controller = "Menu"}. Executing action ZFS.Api.Controls.MenuController.Get (ZFS.Api)
+2019-07-24 22:30:49.150 +08:00 [INF] Executing action method ZFS.Api.Controls.MenuController.Get (ZFS.Api) - Validation state: "Valid"
+2019-07-24 22:30:49.152 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-07-24 22:30:49.168 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-07-24 22:30:49.169 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."Id", "m"."MenuAuthorities", "m"."MenuCaption", "m"."MenuCode", "m"."MenuName", "m"."MenuNameSpace", "m"."ParentName"
+FROM "Menus" AS "m"
+2019-07-24 22:30:49.172 +08:00 [INF] Executed action method ZFS.Api.Controls.MenuController.Get (ZFS.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 22.1235ms.
+2019-07-24 22:30:49.172 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ZFS.Core.Entity.Menu, ZFS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-07-24 22:30:49.179 +08:00 [INF] Executed action ZFS.Api.Controls.MenuController.Get (ZFS.Api) in 59.698ms
+2019-07-24 22:30:49.179 +08:00 [INF] Request finished in 64.6024ms 200 application/json; charset=utf-8
+2019-07-24 22:30:54.333 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/api/User  
+2019-07-24 22:30:54.343 +08:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action ZFS.Api.Controls.UserController.Get (ZFS.Api)
+2019-07-24 22:30:54.379 +08:00 [INF] Executing action method ZFS.Api.Controls.UserController.Get (ZFS.Api) - Validation state: "Valid"
+2019-07-24 22:30:54.383 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-07-24 22:30:54.400 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-07-24 22:30:54.401 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Account", "u"."Address", "u"."CreateTime", "u"."Email", "u"."FlagAdmin", "u"."FlagOnline", "u"."IsLocked", "u"."LastLoginTime", "u"."LastLogouTime", "u"."LoginCounter", "u"."Password", "u"."Tel", "u"."UserName"
+FROM "Users" AS "u"
+2019-07-24 22:30:54.405 +08:00 [INF] Executed action method ZFS.Api.Controls.UserController.Get (ZFS.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 25.9202ms.
+2019-07-24 22:30:54.406 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ZFS.Core.Entity.User, ZFS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-07-24 22:30:54.416 +08:00 [INF] Executed action ZFS.Api.Controls.UserController.Get (ZFS.Api) in 72.762ms
+2019-07-24 22:30:54.417 +08:00 [INF] Request finished in 84.4708ms 200 application/json; charset=utf-8
+2019-07-24 22:38:46.842 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-07-24 22:38:47.490 +08:00 [INF] Executed DbCommand (61ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-07-24 22:38:47.556 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-07-24 22:38:47.813 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-24 22:38:48.954 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-07-24 22:38:49.640 +08:00 [INF] Request finished in 688.9549ms 200 text/html
+2019-07-24 22:38:49.975 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-07-24 22:38:50.242 +08:00 [INF] Request finished in 266.5846ms 200 application/json;charset=utf-8
+2019-07-24 22:52:23.326 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-07-24 22:52:23.949 +08:00 [INF] Executed DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-07-24 22:52:23.992 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-07-24 22:52:24.155 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-24 22:52:25.104 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-07-24 22:52:25.741 +08:00 [INF] Request finished in 637.9114ms 200 text/html
+2019-07-24 22:52:26.069 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-07-24 22:52:26.310 +08:00 [INF] Request finished in 241.4523ms 200 application/json;charset=utf-8
+2019-07-24 22:52:57.178 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-07-24 22:52:57.914 +08:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-07-24 22:52:57.952 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-07-24 22:52:58.124 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-24 22:52:58.949 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-07-24 22:52:59.557 +08:00 [INF] Request finished in 608.0845ms 200 text/html
+2019-07-24 22:52:59.934 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-07-24 22:53:00.155 +08:00 [INF] Request finished in 221.1293ms 200 application/json;charset=utf-8

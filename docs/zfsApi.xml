@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ZFS.Api</name>
+    </assembly>
+    <members>
+        <member name="T:ZFS.Api.Controls.AuthorithitemController">
+            <summary>
+            权限定义
+            </summary>
+        </member>
+        <member name="M:ZFS.Api.Controls.AuthorithitemController.AddAuthItem(ZFS.Core.Entity.Authorithitem)">
+            <summary>
+            新增权限定义
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZFS.Api.Controls.BaseController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ZFS.Api.Controls.DictionaryController">
+            <summary>
+            字典数据
+            </summary>
+        </member>
+        <member name="M:ZFS.Api.Controls.DictionaryController.#ctor(ZFS.Core.Interfaces.IUnitDbWork,ZFS.Core.Interfaces.IDictionaryRepository,AutoMapper.IMapper,ZFS.EFCore.Services.FilterVerification.ITypeHelperService,ZFS.EFCore.Services.OrderBys.IPropertyMappingContainer)">
+            <summary>
+             用户构造函数
+            </summary>
+            <param name="work">DB Work</param>
+            <param name="repository">业务实例</param>
+            <param name="mapper">映射</param>
+            <param name="typeHelperService">字段验证</param>
+            <param name="propertyMappingContainer">排序验证</param>
+        </member>
+        <member name="M:ZFS.Api.Controls.DictionaryController.GetDictionaries(ZFS.Core.Query.DictionariesParameters)">
+            <summary>
+            获取字典数据列表
+            </summary>
+            <param name="parameters">搜索</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZFS.Api.Controls.DictionaryController.AddDictionary(ZFS.Core.Entity.Dictionaries)">
+            <summary>
+            新增字典
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZFS.Api.Controls.DictionaryTypeController">
+            <summary>
+            字典类型
+            </summary>
+        </member>
+        <member name="M:ZFS.Api.Controls.DictionaryTypeController.AddDictionType(ZFS.Core.Entity.DictionaryType)">
+            <summary>
+            新增字典类型
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZFS.Api.Controls.GroupController">
+            <summary>
+            用户组
+            </summary>
+        </member>
+        <member name="M:ZFS.Api.Controls.GroupController.AddGroup(ZFS.Core.Entity.Group)">
+            <summary>
+            新增用户组
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZFS.Api.Controls.GroupFuncController">
+            <summary>
+            组行为
+            </summary>
+        </member>
+        <member name="M:ZFS.Api.Controls.GroupFuncController.AddGroupFunc(ZFS.Core.Entity.GroupFunc)">
+            <summary>
+            新增组行为
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZFS.Api.Controls.GroupUserController">
+            <summary>
+            组用户
+            </summary>
+        </member>
+        <member name="M:ZFS.Api.Controls.GroupUserController.AddGroupUser(ZFS.Core.Entity.GroupUser)">
+            <summary>
+            新增组用户
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZFS.Api.Controls.LoginlogController">
+            <summary>
+            登录记录
+            </summary>
+        </member>
+        <member name="M:ZFS.Api.Controls.LoginlogController.AddLoginlog(ZFS.Core.Entity.LoginLog)">
+            <summary>
+            新增登录数据
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZFS.Api.Controls.MenuController">
+            <summary>
+            系统菜单
+            </summary>
+        </member>
+        <member name="M:ZFS.Api.Controls.MenuController.AddMenu(ZFS.Core.Entity.Menu)">
+            <summary>
+            新增系统菜单
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZFS.Api.Controls.UserController">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="M:ZFS.Api.Controls.UserController.#ctor(ZFS.Core.Interfaces.IUnitDbWork,ZFS.Core.Interfaces.IUserRepository,AutoMapper.IMapper,ZFS.EFCore.Services.FilterVerification.ITypeHelperService,ZFS.EFCore.Services.OrderBys.IPropertyMappingContainer)">
+            <summary>
+             用户构造函数
+            </summary>
+            <param name="work">DB Work</param>
+            <param name="repository">业务实例</param>
+            <param name="mapper">映射</param>
+            <param name="typeHelperService">字段验证</param>
+            <param name="propertyMappingContainer">排序验证</param>
+        </member>
+        <member name="M:ZFS.Api.Controls.UserController.GetUser(ZFS.Core.Query.UserParameters)">
+            <summary>
+             根据用户姓名获取用户数据列表
+            </summary>
+            <param name="parameters">搜索</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZFS.Api.Controls.UserController.Login(System.String,System.String)">
+            <summary>
+            用户登录验证
+            </summary>
+            <param name="account">用户名</param>
+            <param name="passWord">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZFS.Api.Controls.UserController.AddUser(ZFS.EFCore.Resources.ViewModel.UserAddViewModel)">
+            <summary>
+            新增用户
+            </summary>
+            <param name="viewModel">新增用户实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZFS.Api.Controls.UserController.UpdateUser(System.Int32,ZFS.EFCore.Resources.ViewModel.UserUpdateViewModel)">
+            <summary>
+            更新用户
+            </summary>
+            <param name="id">用户id</param>
+            <param name="viewModel">更新实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZFS.Api.Controls.UserController.DeleteUser(System.Int32)">
+            <summary>
+            删除用户
+            </summary>
+            <param name="id">用户id</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZFS.Api.Controls.UserController.Perm(System.String)">
+            <summary>
+            获取用户的权限
+            </summary>
+            <param name="account">账号名</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZFS.Api.Design.MyUnprocessableEntityObjectResult">
+            <summary>
+            自定义验证
+            </summary>
+        </member>
+        <member name="T:ZFS.Api.Program">
+            <summary>
+            基础参数配置
+            </summary>
+        </member>
+        <member name="T:ZFS.Api.Startup">
+            <summary>
+            自定义行为配置: 组件、服务注册、功能、中间件管道
+            </summary>
+        </member>
+        <member name="M:ZFS.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            服务注册
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:ZFS.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            配置中间件管道服务请求
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,823 @@
+2019-08-01 00:52:07.742 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 00:52:08.557 +08:00 [INF] Executed DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 00:52:08.613 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 00:52:09.143 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 00:52:10.214 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 00:52:10.789 +08:00 [INF] Request finished in 569.1587ms 301 
+2019-08-01 00:52:10.791 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 00:52:10.961 +08:00 [INF] Request finished in 170.6356ms 200 text/html
+2019-08-01 00:52:10.979 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/swagger-ui-standalone-preset.js  
+2019-08-01 00:52:11.015 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/swagger-ui.css  
+2019-08-01 00:52:11.024 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/swagger-ui-bundle.js  
+2019-08-01 00:52:11.118 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-08-01 00:52:11.124 +08:00 [INF] Request finished in 109.205ms 200 text/css
+2019-08-01 00:52:11.125 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-08-01 00:52:11.125 +08:00 [INF] Request finished in 146.4145ms 200 application/javascript
+2019-08-01 00:52:11.165 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-08-01 00:52:11.165 +08:00 [INF] Request finished in 141.0349ms 200 application/javascript
+2019-08-01 00:52:11.873 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 00:52:12.033 +08:00 [INF] Request finished in 160.1537ms 200 application/json;charset=utf-8
+2019-08-01 19:47:35.070 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 19:47:35.538 +08:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 19:47:35.577 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 19:47:35.706 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 19:47:36.278 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 19:47:36.548 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 19:47:36.551 +08:00 [INF] Request finished in 274.0298ms 301 
+2019-08-01 19:47:36.668 +08:00 [INF] Request finished in 119.4864ms 200 text/html
+2019-08-01 19:47:36.960 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 19:47:37.094 +08:00 [INF] Request finished in 134.4309ms 200 application/json;charset=utf-8
+2019-08-01 19:48:49.846 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 19:48:50.259 +08:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 19:48:50.296 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 19:48:50.378 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 19:48:50.883 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 19:48:51.077 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 19:48:51.079 +08:00 [INF] Request finished in 195.9427ms 301 
+2019-08-01 19:48:51.164 +08:00 [INF] Request finished in 87.0595ms 200 text/html
+2019-08-01 19:48:51.421 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 19:48:51.497 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "GET" & path "api/User" overloaded by actions - ZFS.Api.Controls.UserController.Get (ZFS.Api),ZFS.Api.Controls.UserController.GetUsersByName (ZFS.Api). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 19:48:51.641 +08:00 [INF] Request finished in 220.7773ms 500 text/html; charset=utf-8
+2019-08-01 19:49:28.387 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 19:49:28.978 +08:00 [INF] Executed DbCommand (74ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 19:49:29.012 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 19:49:29.105 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 19:49:29.539 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 19:49:29.539 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/favicon.ico  
+2019-08-01 19:49:29.697 +08:00 [INF] Request finished in 158.1535ms 0 
+2019-08-01 19:49:29.717 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 19:49:29.717 +08:00 [INF] Request finished in 178.9553ms 301 
+2019-08-01 19:49:29.786 +08:00 [INF] Request finished in 69.43ms 200 text/html
+2019-08-01 19:49:30.035 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 19:49:30.138 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "GET" & path "api/User" overloaded by actions - ZFS.Api.Controls.UserController.Get (ZFS.Api),ZFS.Api.Controls.UserController.GetUsersByName (ZFS.Api). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 19:49:30.209 +08:00 [INF] Request finished in 173.8762ms 500 text/html; charset=utf-8
+2019-08-01 19:49:58.894 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 19:49:59.289 +08:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 19:49:59.353 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 19:49:59.492 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 19:50:00.114 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 19:50:00.728 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 19:50:00.730 +08:00 [INF] Request finished in 616.802ms 301 
+2019-08-01 19:50:01.103 +08:00 [INF] Request finished in 373.8286ms 200 text/html
+2019-08-01 19:50:01.588 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 19:50:01.672 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "GET" & path "api/User" overloaded by actions - ZFS.Api.Controls.UserController.Get (ZFS.Api),ZFS.Api.Controls.UserController.GetUsersByName (ZFS.Api). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 19:50:01.763 +08:00 [INF] Request finished in 175.2019ms 500 text/html; charset=utf-8
+2019-08-01 19:50:54.377 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 19:50:54.738 +08:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 19:50:54.770 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 19:50:54.841 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 19:50:55.153 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 19:50:55.326 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 19:50:55.327 +08:00 [INF] Request finished in 174.8404ms 301 
+2019-08-01 19:50:55.416 +08:00 [INF] Request finished in 89.9142ms 200 text/html
+2019-08-01 19:50:55.672 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 19:50:55.740 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "GET" & path "api/User" overloaded by actions - ZFS.Api.Controls.UserController.Get (ZFS.Api),ZFS.Api.Controls.UserController.GetUsersByName (ZFS.Api). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 19:50:55.834 +08:00 [INF] Request finished in 161.7952ms 500 text/html; charset=utf-8
+2019-08-01 19:53:45.644 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 19:53:46.037 +08:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 19:53:46.070 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 19:53:46.877 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 19:53:47.230 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 19:53:47.418 +08:00 [INF] Request finished in 188.9234ms 301 
+2019-08-01 19:53:47.421 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 19:53:47.498 +08:00 [INF] Request finished in 77.0196ms 200 text/html
+2019-08-01 19:53:47.769 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 19:53:47.881 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "GET" & path "api/User" overloaded by actions - ZFS.Api.Controls.UserController.Get (ZFS.Api),ZFS.Api.Controls.UserController.SearchUser (ZFS.Api). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 19:53:47.999 +08:00 [INF] Request finished in 230.1628ms 500 text/html; charset=utf-8
+2019-08-01 19:54:23.446 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 19:54:23.818 +08:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 19:54:23.849 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 19:54:23.922 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 19:54:24.236 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 19:54:24.409 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 19:54:24.410 +08:00 [INF] Request finished in 174.0171ms 301 
+2019-08-01 19:54:24.492 +08:00 [INF] Request finished in 83.291ms 200 text/html
+2019-08-01 19:54:24.744 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 19:54:24.833 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "GET" & path "api/User" overloaded by actions - ZFS.Api.Controls.UserController.Get (ZFS.Api),ZFS.Api.Controls.UserController.SearchUser (ZFS.Api). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 19:54:24.906 +08:00 [INF] Request finished in 162.1029ms 500 text/html; charset=utf-8
+2019-08-01 19:55:08.501 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 19:55:08.985 +08:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 19:55:09.018 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 19:55:09.091 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 19:55:09.387 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 19:55:09.551 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 19:55:09.551 +08:00 [INF] Request finished in 165.3149ms 301 
+2019-08-01 19:55:09.624 +08:00 [INF] Request finished in 73.7225ms 200 text/html
+2019-08-01 19:55:09.857 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 19:55:09.977 +08:00 [INF] Request finished in 120.3455ms 200 application/json;charset=utf-8
+2019-08-01 19:57:16.030 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 19:57:16.445 +08:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 19:57:16.480 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 19:57:16.591 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 19:57:16.941 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 19:57:17.113 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 19:57:17.115 +08:00 [INF] Request finished in 174.5438ms 301 
+2019-08-01 19:57:17.192 +08:00 [INF] Request finished in 78.1139ms 200 text/html
+2019-08-01 19:57:17.452 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 19:57:17.582 +08:00 [INF] Request finished in 129.4292ms 200 application/json;charset=utf-8
+2019-08-01 19:57:48.950 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 19:57:49.314 +08:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 19:57:49.343 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 19:57:49.432 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 19:57:49.767 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 19:57:49.945 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 19:57:49.946 +08:00 [INF] Request finished in 179.4901ms 301 
+2019-08-01 19:57:50.024 +08:00 [INF] Request finished in 79.1226ms 200 text/html
+2019-08-01 19:57:50.285 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 19:57:50.350 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "GET" & path "api/User" overloaded by actions - ZFS.Api.Controls.UserController.Get (ZFS.Api),ZFS.Api.Controls.UserController.SearchUser (ZFS.Api). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 19:57:50.421 +08:00 [INF] Request finished in 136.4713ms 500 text/html; charset=utf-8
+2019-08-01 19:58:22.061 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 19:58:22.434 +08:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 19:58:22.464 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 19:58:22.541 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 19:58:22.857 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 19:58:23.031 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 19:58:23.032 +08:00 [INF] Request finished in 175.5342ms 301 
+2019-08-01 19:58:23.136 +08:00 [INF] Request finished in 104.7676ms 200 text/html
+2019-08-01 19:58:23.433 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 19:58:23.559 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "GET" & path "api/User" overloaded by actions - ZFS.Api.Controls.UserController.Get (ZFS.Api),ZFS.Api.Controls.UserController.SearchUser (ZFS.Api). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 19:58:23.638 +08:00 [INF] Request finished in 204.8564ms 500 text/html; charset=utf-8
+2019-08-01 19:59:24.248 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 19:59:24.596 +08:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 19:59:24.627 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 19:59:24.699 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 19:59:25.020 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 19:59:25.197 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 19:59:25.197 +08:00 [INF] Request finished in 177.5071ms 301 
+2019-08-01 19:59:25.282 +08:00 [INF] Request finished in 84.6106ms 200 text/html
+2019-08-01 19:59:25.535 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 19:59:25.605 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "GET" & path "api/User" overloaded by actions - ZFS.Api.Controls.UserController.Get (ZFS.Api),ZFS.Api.Controls.UserController.Search (ZFS.Api). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 19:59:25.684 +08:00 [INF] Request finished in 149.3705ms 500 text/html; charset=utf-8
+2019-08-01 20:00:28.765 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 20:00:29.128 +08:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 20:00:29.160 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 20:00:29.233 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 20:00:29.550 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 20:00:29.729 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 20:00:29.730 +08:00 [INF] Request finished in 180.4294ms 301 
+2019-08-01 20:00:29.812 +08:00 [INF] Request finished in 83.9724ms 200 text/html
+2019-08-01 20:00:30.067 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 20:00:30.133 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "GET" & path "api/User" overloaded by actions - ZFS.Api.Controls.UserController.Get (ZFS.Api),ZFS.Api.Controls.UserController.Search (ZFS.Api). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 20:00:30.211 +08:00 [INF] Request finished in 144.5161ms 500 text/html; charset=utf-8
+2019-08-01 20:00:49.359 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 20:00:49.726 +08:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 20:00:49.762 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 20:00:49.847 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 20:00:50.158 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 20:00:50.328 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 20:00:50.329 +08:00 [INF] Request finished in 171.1155ms 301 
+2019-08-01 20:00:50.407 +08:00 [INF] Request finished in 79.2463ms 200 text/html
+2019-08-01 20:00:50.667 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 20:00:50.748 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "GET" & path "api/User" overloaded by actions - ZFS.Api.Controls.UserController.Get (ZFS.Api),ZFS.Api.Controls.UserController.Search (ZFS.Api). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 20:00:50.828 +08:00 [INF] Request finished in 161.4232ms 500 text/html; charset=utf-8
+2019-08-01 20:03:37.721 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 20:03:39.077 +08:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 20:03:39.114 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 20:03:39.207 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 20:03:39.562 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 20:03:39.751 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 20:03:39.751 +08:00 [INF] Request finished in 189.9059ms 301 
+2019-08-01 20:03:39.858 +08:00 [INF] Request finished in 107.8874ms 200 text/html
+2019-08-01 20:03:40.134 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 20:03:40.192 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "GET" & path "api/User" overloaded by actions - ZFS.Api.Controls.UserController.Get (ZFS.Api),ZFS.Api.Controls.UserController.Search (ZFS.Api). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 20:03:40.434 +08:00 [INF] Request finished in 299.619ms 500 text/html; charset=utf-8
+2019-08-01 20:06:15.978 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 20:06:16.336 +08:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 20:06:16.364 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 20:06:16.437 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 20:06:16.788 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 20:06:16.952 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 20:06:16.953 +08:00 [INF] Request finished in 164.6863ms 301 
+2019-08-01 20:06:17.029 +08:00 [INF] Request finished in 76.7663ms 200 text/html
+2019-08-01 20:06:17.275 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 20:06:17.306 +08:00 [INF] Request finished in 31.4224ms 200 application/json;charset=utf-8
+2019-08-01 20:06:54.716 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 20:06:55.078 +08:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 20:06:55.112 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 20:06:55.207 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 20:06:55.546 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 20:06:55.710 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 20:06:55.711 +08:00 [INF] Request finished in 165.1713ms 301 
+2019-08-01 20:06:55.804 +08:00 [INF] Request finished in 93.3894ms 200 text/html
+2019-08-01 20:06:56.134 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 20:06:56.163 +08:00 [INF] Request finished in 28.47ms 200 application/json;charset=utf-8
+2019-08-01 20:09:02.482 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 20:09:02.842 +08:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 20:09:02.870 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 20:09:02.943 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 20:09:03.273 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 20:09:03.468 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 20:09:03.469 +08:00 [INF] Request finished in 197.4639ms 301 
+2019-08-01 20:09:03.552 +08:00 [INF] Request finished in 83.7143ms 200 text/html
+2019-08-01 20:09:03.799 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 20:09:03.940 +08:00 [INF] Request finished in 141.6313ms 200 application/json;charset=utf-8
+2019-08-01 20:09:47.322 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 20:09:47.689 +08:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 20:09:47.720 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 20:09:47.795 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 20:09:48.140 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 20:09:48.317 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 20:09:48.317 +08:00 [INF] Request finished in 178.0906ms 301 
+2019-08-01 20:09:48.403 +08:00 [INF] Request finished in 86.0213ms 200 text/html
+2019-08-01 20:09:48.649 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 20:09:48.776 +08:00 [INF] Request finished in 127.3686ms 200 application/json;charset=utf-8
+2019-08-01 20:10:02.601 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 20:10:02.604 +08:00 [INF] Request finished in 3.041ms 301 
+2019-08-01 20:10:02.608 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 20:10:02.611 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 20:10:02.612 +08:00 [INF] Request finished in 0.9125ms 200 text/html
+2019-08-01 20:10:02.612 +08:00 [INF] Request finished in 5.8549ms 200 text/html
+2019-08-01 20:10:02.939 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/swagger-ui-bundle.js.map  
+2019-08-01 20:10:02.944 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/swagger-ui-standalone-preset.js.map  
+2019-08-01 20:10:02.954 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/swagger-ui.css.map  
+2019-08-01 20:10:03.128 +08:00 [INF] Sending file. Request path: '/swagger-ui.css.map'. Physical path: 'N/A'
+2019-08-01 20:10:03.128 +08:00 [INF] Request finished in 174.5985ms 200 text/plain
+2019-08-01 20:10:03.395 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-08-01 20:10:03.399 +08:00 [INF] Request finished in 454.1838ms 200 text/plain
+2019-08-01 20:10:03.586 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-08-01 20:10:03.586 +08:00 [INF] Request finished in 647.0506ms 200 text/plain
+2019-08-01 20:10:04.539 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/api/User?name=A  
+2019-08-01 20:10:04.587 +08:00 [INF] Route matched with {action = "GetUsersByName", controller = "User"}. Executing action ZFS.Api.Controls.UserController.GetUsersByName (ZFS.Api)
+2019-08-01 20:10:04.800 +08:00 [INF] Executing action method ZFS.Api.Controls.UserController.GetUsersByName (ZFS.Api) with arguments (["A"]) - Validation state: "Valid"
+2019-08-01 20:10:50.493 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 20:10:50.570 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 20:10:50.581 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Account", "u"."Address", "u"."CreateTime", "u"."Email", "u"."FlagAdmin", "u"."FlagOnline", "u"."IsLocked", "u"."LastLoginTime", "u"."LastLogouTime", "u"."LoginCounter", "u"."Password", "u"."Tel", "u"."UserName"
+FROM "Users" AS "u"
+2019-08-01 20:10:50.660 +08:00 [INF] Executed action method ZFS.Api.Controls.UserController.GetUsersByName (ZFS.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 45849.0222ms.
+2019-08-01 20:10:50.668 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ZFS.Core.Entity.User, ZFS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-08-01 20:10:50.682 +08:00 [INF] Executed action ZFS.Api.Controls.UserController.GetUsersByName (ZFS.Api) in 46092.731100000005ms
+2019-08-01 20:10:50.682 +08:00 [INF] Request finished in 46143.2172ms 200 application/json; charset=utf-8
+2019-08-01 22:33:36.870 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 22:33:37.269 +08:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 22:33:37.305 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 22:33:37.405 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 22:33:38.063 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 22:33:38.298 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 22:33:38.300 +08:00 [INF] Request finished in 237.8437ms 301 
+2019-08-01 22:33:38.408 +08:00 [INF] Request finished in 110.0258ms 200 text/html
+2019-08-01 22:33:38.684 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 22:33:38.774 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "GET" & path "api/User" overloaded by actions - ZFS.Api.Controls.UserController.Login (ZFS.Api),ZFS.Api.Controls.UserController.GetUsersByName (ZFS.Api). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 22:33:38.973 +08:00 [INF] Request finished in 289.3958ms 500 text/html; charset=utf-8
+2019-08-01 22:34:05.861 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 22:34:06.300 +08:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 22:34:06.429 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 22:34:06.613 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 22:34:06.970 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 22:34:07.170 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 22:34:07.172 +08:00 [INF] Request finished in 202.3529ms 301 
+2019-08-01 22:34:07.253 +08:00 [INF] Request finished in 83.007ms 200 text/html
+2019-08-01 22:34:07.539 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 22:34:07.619 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "GET" & path "api/User" overloaded by actions - ZFS.Api.Controls.UserController.Login (ZFS.Api),ZFS.Api.Controls.UserController.GetUsersByName (ZFS.Api). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 22:34:07.703 +08:00 [INF] Request finished in 164.8245ms 500 text/html; charset=utf-8
+2019-08-01 22:34:43.905 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 22:34:44.363 +08:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 22:34:44.397 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 22:34:44.498 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 22:34:44.934 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 22:34:45.140 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 22:34:45.141 +08:00 [INF] Request finished in 207.822ms 301 
+2019-08-01 22:34:45.232 +08:00 [INF] Request finished in 91.4634ms 200 text/html
+2019-08-01 22:34:45.512 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 22:34:45.589 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "GET" & path "api/User" overloaded by actions - ZFS.Api.Controls.UserController.GetUsersByName (ZFS.Api),ZFS.Api.Controls.UserController.Login (ZFS.Api). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 22:34:45.678 +08:00 [INF] Request finished in 165.7431ms 500 text/html; charset=utf-8
+2019-08-01 22:36:33.111 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 22:36:33.507 +08:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 22:36:33.545 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 22:36:33.636 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 22:36:33.959 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 22:36:34.136 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 22:36:34.138 +08:00 [INF] Request finished in 179.7993ms 301 
+2019-08-01 22:36:34.235 +08:00 [INF] Request finished in 98.6146ms 200 text/html
+2019-08-01 22:36:34.497 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 22:36:34.564 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "GET" & path "api/User" overloaded by actions - ZFS.Api.Controls.UserController.SeachUsersByName (ZFS.Api),ZFS.Api.Controls.UserController.Login (ZFS.Api). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 22:36:34.668 +08:00 [INF] Request finished in 170.7567ms 500 text/html; charset=utf-8
+2019-08-01 22:37:30.497 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 22:37:30.928 +08:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 22:37:30.961 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 22:37:31.045 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 22:37:31.560 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 22:37:31.831 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 22:37:31.833 +08:00 [INF] Request finished in 276.674ms 301 
+2019-08-01 22:37:31.923 +08:00 [INF] Request finished in 91.4797ms 200 text/html
+2019-08-01 22:37:32.269 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 22:37:32.354 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "GET" & path "api/User" overloaded by actions - ZFS.Api.Controls.UserController.SeachUsersByName (ZFS.Api),ZFS.Api.Controls.UserController.Login (ZFS.Api). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 22:37:32.469 +08:00 [INF] Request finished in 199.9341ms 500 text/html; charset=utf-8
+2019-08-01 22:40:42.158 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 22:40:42.584 +08:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 22:40:42.614 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 22:40:42.718 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 22:40:43.108 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 22:40:43.300 +08:00 [INF] Request finished in 192.9605ms 301 
+2019-08-01 22:40:43.303 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 22:40:43.389 +08:00 [INF] Request finished in 85.9684ms 200 text/html
+2019-08-01 22:40:43.653 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 22:40:43.799 +08:00 [INF] Request finished in 146.0765ms 200 application/json;charset=utf-8
+2019-08-01 22:41:55.965 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 22:41:56.377 +08:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 22:41:56.408 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 22:41:56.493 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 22:41:56.963 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 22:41:57.091 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.RouteCreationException: The following errors occurred with attribute routing information:
+
+For action: 'ZFS.Api.Controls.UserController.Login (ZFS.Api)'
+Error: A path segment cannot contain two consecutive parameters. They must be separated by a '/' or by a literal string.
+Parameter name: routeTemplate
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetRouteInfos(IReadOnlyList`1 actions)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.AddEntries(TreeRouteBuilder builder, ActionDescriptorCollection actions)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetTreeRouter()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 22:41:57.219 +08:00 [INF] Request finished in 256.8168ms 500 text/html; charset=utf-8
+2019-08-01 22:42:15.588 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 22:42:16.085 +08:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 22:42:16.120 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 22:42:16.196 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 22:42:16.677 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 22:42:16.925 +08:00 [INF] Request finished in 248.956ms 301 
+2019-08-01 22:42:16.955 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 22:42:17.034 +08:00 [INF] Request finished in 78.7094ms 200 text/html
+2019-08-01 22:42:17.286 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 22:42:17.454 +08:00 [INF] Request finished in 168.1781ms 200 application/json;charset=utf-8
+2019-08-01 22:44:14.366 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/api/User/admin,admin  
+2019-08-01 22:44:14.408 +08:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing action ZFS.Api.Controls.UserController.Login (ZFS.Api)
+2019-08-01 22:44:14.587 +08:00 [INF] Executing action method ZFS.Api.Controls.UserController.Login (ZFS.Api) with arguments (["admin","admin"]) - Validation state: "Valid"
+2019-08-01 22:44:50.784 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 22:44:50.786 +08:00 [INF] Request finished in 1.6315ms 301 
+2019-08-01 22:44:50.786 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 22:44:50.786 +08:00 [INF] Request finished in 0.6279ms 200 text/html
+2019-08-01 22:44:50.787 +08:00 [INF] Executed action method ZFS.Api.Controls.UserController.Login (ZFS.Api), returned result Microsoft.AspNetCore.Mvc.OkResult in 36184.171800000004ms.
+2019-08-01 22:44:50.797 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 22:44:50.797 +08:00 [INF] Request finished in 0.6661ms 200 text/html
+2019-08-01 22:44:50.801 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-08-01 22:44:50.805 +08:00 [INF] Executed action ZFS.Api.Controls.UserController.Login (ZFS.Api) in 36393.9165ms
+2019-08-01 22:44:50.806 +08:00 [INF] Request finished in 36440.1035ms 200 
+2019-08-01 22:44:55.795 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/api/User/admin,admin  
+2019-08-01 22:44:55.795 +08:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing action ZFS.Api.Controls.UserController.Login (ZFS.Api)
+2019-08-01 22:44:55.819 +08:00 [INF] Executing action method ZFS.Api.Controls.UserController.Login (ZFS.Api) with arguments (["admin","admin"]) - Validation state: "Valid"
+2019-08-01 22:47:20.570 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 22:47:21.004 +08:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 22:47:21.038 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 22:47:21.126 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 22:47:21.552 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 22:47:21.657 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.RouteCreationException: The following errors occurred with attribute routing information:
+
+For action: 'ZFS.Api.Controls.UserController.Login (ZFS.Api)'
+Error: The literal section '?userName=' is invalid. Literal sections cannot contain the '?' character.
+Parameter name: routeTemplate
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetRouteInfos(IReadOnlyList`1 actions)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.AddEntries(TreeRouteBuilder builder, ActionDescriptorCollection actions)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetTreeRouter()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 22:47:21.777 +08:00 [INF] Request finished in 226.4208ms 500 text/html; charset=utf-8
+2019-08-01 22:47:38.337 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 22:47:38.736 +08:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 22:47:38.766 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 22:47:38.867 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 22:47:39.242 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 22:47:39.423 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 22:47:39.424 +08:00 [INF] Request finished in 182.9783ms 301 
+2019-08-01 22:47:39.529 +08:00 [INF] Request finished in 105.8607ms 200 text/html
+2019-08-01 22:47:39.793 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 22:47:39.934 +08:00 [INF] Request finished in 140.2675ms 200 application/json;charset=utf-8
+2019-08-01 22:47:47.178 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 22:47:47.178 +08:00 [INF] Request finished in 0.8172ms 301 
+2019-08-01 22:47:47.180 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 22:47:47.180 +08:00 [INF] Request finished in 0.6147ms 200 text/html
+2019-08-01 22:47:47.181 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 22:47:47.185 +08:00 [INF] Request finished in 3.4019ms 200 text/html
+2019-08-01 22:47:58.591 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/api/User/userName=admin&passWord=admin  
+2019-08-01 22:47:58.628 +08:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing action ZFS.Api.Controls.UserController.Login (ZFS.Api)
+2019-08-01 22:47:58.786 +08:00 [INF] Executing action method ZFS.Api.Controls.UserController.Login (ZFS.Api) with arguments (["admin","admin"]) - Validation state: "Valid"
+2019-08-01 22:48:45.132 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 22:48:45.520 +08:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 22:48:45.555 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 22:48:45.646 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 22:48:46.028 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 22:48:46.225 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 22:48:46.226 +08:00 [INF] Request finished in 198.237ms 301 
+2019-08-01 22:48:46.313 +08:00 [INF] Request finished in 88.1547ms 200 text/html
+2019-08-01 22:48:46.577 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 22:48:46.733 +08:00 [INF] Request finished in 155.9102ms 200 application/json;charset=utf-8
+2019-08-01 22:48:53.483 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 22:48:53.485 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 22:48:53.505 +08:00 [INF] Request finished in 20.141ms 200 text/html
+2019-08-01 22:48:53.585 +08:00 [INF] Request finished in 101.3753ms 301 
+2019-08-01 22:48:53.619 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 22:48:53.626 +08:00 [INF] Request finished in 6.6638ms 200 text/html
+2019-08-01 22:49:03.920 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/api/User?userName=admin&passWord=admin  
+2019-08-01 22:49:03.957 +08:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing action ZFS.Api.Controls.UserController.Login (ZFS.Api)
+2019-08-01 22:49:04.100 +08:00 [INF] Executing action method ZFS.Api.Controls.UserController.Login (ZFS.Api) with arguments (["admin","admin"]) - Validation state: "Valid"
+2019-08-01 23:57:48.801 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 23:57:49.194 +08:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 23:57:49.225 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 23:57:49.315 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 23:57:49.673 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 23:57:49.853 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 23:57:49.853 +08:00 [INF] Request finished in 181.14ms 301 
+2019-08-01 23:57:49.942 +08:00 [INF] Request finished in 88.9969ms 200 text/html
+2019-08-01 23:57:50.211 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 23:57:50.280 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "GET" & path "api/User" overloaded by actions - ZFS.Api.Controls.UserController.SeachUsersByName (ZFS.Api),ZFS.Api.Controls.UserController.Login (ZFS.Api). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 23:57:50.422 +08:00 [INF] Request finished in 210.9992ms 500 text/html; charset=utf-8
+2019-08-01 23:58:21.330 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-01 23:58:21.732 +08:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-01 23:58:21.763 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-01 23:58:21.855 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-01 23:58:22.234 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-01 23:58:22.430 +08:00 [INF] Request finished in 196.6034ms 301 
+2019-08-01 23:58:22.431 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-01 23:58:22.514 +08:00 [INF] Request finished in 83.0692ms 200 text/html
+2019-08-01 23:58:22.810 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-01 23:58:22.900 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "GET" & path "api/User" overloaded by actions - ZFS.Api.Controls.UserController.SeachUsersByName (ZFS.Api),ZFS.Api.Controls.UserController.Login (ZFS.Api). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-01 23:58:23.006 +08:00 [INF] Request finished in 195.6725ms 500 text/html; charset=utf-8

@@ -1,0 +1,111 @@
+2019-08-02 00:05:48.794 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-02 00:05:49.239 +08:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-02 00:05:49.272 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-02 00:05:49.367 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-02 00:05:49.826 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-02 00:05:50.007 +08:00 [INF] Request finished in 181.7524ms 301 
+2019-08-02 00:05:50.011 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-02 00:05:50.114 +08:00 [INF] Request finished in 102.9197ms 200 text/html
+2019-08-02 00:05:50.406 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-02 00:05:50.547 +08:00 [INF] Request finished in 140.6491ms 200 application/json;charset=utf-8
+2019-08-02 00:06:29.686 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-02 00:06:30.074 +08:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-02 00:06:30.112 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-02 00:06:30.193 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-02 00:06:30.530 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-02 00:06:30.708 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-02 00:06:30.709 +08:00 [INF] Request finished in 182.5354ms 301 
+2019-08-02 00:06:30.799 +08:00 [INF] Request finished in 91.3709ms 200 text/html
+2019-08-02 00:06:31.093 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-02 00:06:31.234 +08:00 [INF] Request finished in 141.7728ms 200 application/json;charset=utf-8
+2019-08-02 00:06:43.998 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/api/User/Login?userName=admin&passWord=admin  
+2019-08-02 00:06:44.050 +08:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing action ZFS.Api.Controls.UserController.Login (ZFS.Api)
+2019-08-02 00:06:44.185 +08:00 [INF] Executing action method ZFS.Api.Controls.UserController.Login (ZFS.Api) with arguments (["admin","admin"]) - Validation state: "Valid"
+2019-08-02 00:06:44.204 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-02 00:06:44.451 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-02 00:06:44.515 +08:00 [INF] Executed DbCommand (15ms) [Parameters=[@__userName_0='?' (Size = 5), @__passWord_1='?' (Size = 5)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Account", "t"."Address", "t"."CreateTime", "t"."Email", "t"."FlagAdmin", "t"."FlagOnline", "t"."IsLocked", "t"."LastLoginTime", "t"."LastLogouTime", "t"."LoginCounter", "t"."Password", "t"."Tel", "t"."UserName"
+FROM "Users" AS "t"
+WHERE ("t"."UserName" = @__userName_0) AND ("t"."Password" = @__passWord_1)
+LIMIT 1
+2019-08-02 00:06:44.535 +08:00 [INF] Executed action method ZFS.Api.Controls.UserController.Login (ZFS.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 341.83770000000004ms.
+2019-08-02 00:06:44.547 +08:00 [INF] Executing ObjectResult, writing value of type 'ZFS.Core.Common.BaseResponse'.
+2019-08-02 00:06:44.567 +08:00 [INF] Executed action ZFS.Api.Controls.UserController.Login (ZFS.Api) in 509.7307ms
+2019-08-02 00:06:44.567 +08:00 [INF] Request finished in 568.815ms 200 application/json; charset=utf-8
+2019-08-02 00:06:52.447 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/api/User/Login?userName=admin&passWord=123  
+2019-08-02 00:06:52.449 +08:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing action ZFS.Api.Controls.UserController.Login (ZFS.Api)
+2019-08-02 00:06:52.481 +08:00 [INF] Executing action method ZFS.Api.Controls.UserController.Login (ZFS.Api) with arguments (["admin","123"]) - Validation state: "Valid"
+2019-08-02 00:06:52.482 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-02 00:06:52.490 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-02 00:06:52.491 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userName_0='?' (Size = 5), @__passWord_1='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Account", "t"."Address", "t"."CreateTime", "t"."Email", "t"."FlagAdmin", "t"."FlagOnline", "t"."IsLocked", "t"."LastLoginTime", "t"."LastLogouTime", "t"."LoginCounter", "t"."Password", "t"."Tel", "t"."UserName"
+FROM "Users" AS "t"
+WHERE ("t"."UserName" = @__userName_0) AND ("t"."Password" = @__passWord_1)
+LIMIT 1
+2019-08-02 00:06:52.491 +08:00 [INF] Executed action method ZFS.Api.Controls.UserController.Login (ZFS.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 9.8956ms.
+2019-08-02 00:06:52.492 +08:00 [INF] Executing ObjectResult, writing value of type 'ZFS.Core.Common.BaseResponse'.
+2019-08-02 00:06:52.492 +08:00 [INF] Executed action ZFS.Api.Controls.UserController.Login (ZFS.Api) in 41.8472ms
+2019-08-02 00:06:52.493 +08:00 [INF] Request finished in 45.0887ms 200 application/json; charset=utf-8
+2019-08-02 00:07:23.249 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/api/User/Login?userName=%E7%AE%A1%E7%90%86%E5%91%98&passWord=123  
+2019-08-02 00:07:23.249 +08:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing action ZFS.Api.Controls.UserController.Login (ZFS.Api)
+2019-08-02 00:07:23.270 +08:00 [INF] Executing action method ZFS.Api.Controls.UserController.Login (ZFS.Api) with arguments (["管理员","123"]) - Validation state: "Valid"
+2019-08-02 00:07:23.271 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-02 00:07:23.272 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-02 00:07:23.273 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userName_0='?' (Size = 3), @__passWord_1='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Account", "t"."Address", "t"."CreateTime", "t"."Email", "t"."FlagAdmin", "t"."FlagOnline", "t"."IsLocked", "t"."LastLoginTime", "t"."LastLogouTime", "t"."LoginCounter", "t"."Password", "t"."Tel", "t"."UserName"
+FROM "Users" AS "t"
+WHERE ("t"."UserName" = @__userName_0) AND ("t"."Password" = @__passWord_1)
+LIMIT 1
+2019-08-02 00:07:23.354 +08:00 [INF] Executed action method ZFS.Api.Controls.UserController.Login (ZFS.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 83.7345ms.
+2019-08-02 00:07:23.354 +08:00 [INF] Executing ObjectResult, writing value of type 'ZFS.Core.Common.BaseResponse'.
+2019-08-02 00:07:23.358 +08:00 [INF] Executed action ZFS.Api.Controls.UserController.Login (ZFS.Api) in 108.6374ms
+2019-08-02 00:07:23.369 +08:00 [INF] Request finished in 119.5973ms 200 application/json; charset=utf-8
+2019-08-02 00:08:59.632 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-02 00:09:00.030 +08:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-02 00:09:00.069 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM "Users" AS "u")
+    THEN 1 ELSE 0
+END
+2019-08-02 00:09:00.150 +08:00 [INF] User profile is available. Using 'C:\Users\zhouh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-08-02 00:09:00.551 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger  
+2019-08-02 00:09:00.739 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/index.html  
+2019-08-02 00:09:00.739 +08:00 [INF] Request finished in 188.2606ms 301 
+2019-08-02 00:09:00.829 +08:00 [INF] Request finished in 90.1988ms 200 text/html
+2019-08-02 00:09:01.095 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/swagger/v1/swagger.json  
+2019-08-02 00:09:01.233 +08:00 [INF] Request finished in 137.9211ms 200 application/json;charset=utf-8
+2019-08-02 00:09:08.296 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44330/api/User/Login?account=admin&passWord=123  
+2019-08-02 00:09:08.356 +08:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing action ZFS.Api.Controls.UserController.Login (ZFS.Api)
+2019-08-02 00:09:08.509 +08:00 [INF] Executing action method ZFS.Api.Controls.UserController.Login (ZFS.Api) with arguments (["admin","123"]) - Validation state: "Valid"
+2019-08-02 00:09:08.527 +08:00 [INF] Entity Framework Core 2.2.4-servicing-10062 initialized 'ZfsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-08-02 00:09:08.718 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-08-02 00:09:08.772 +08:00 [INF] Executed DbCommand (18ms) [Parameters=[@__account_0='?' (Size = 5), @__passWord_1='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Account", "t"."Address", "t"."CreateTime", "t"."Email", "t"."FlagAdmin", "t"."FlagOnline", "t"."IsLocked", "t"."LastLoginTime", "t"."LastLogouTime", "t"."LoginCounter", "t"."Password", "t"."Tel", "t"."UserName"
+FROM "Users" AS "t"
+WHERE ("t"."Account" = @__account_0) AND ("t"."Password" = @__passWord_1)
+LIMIT 1
+2019-08-02 00:09:08.846 +08:00 [INF] Executed action method ZFS.Api.Controls.UserController.Login (ZFS.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 328.5704ms.
+2019-08-02 00:09:08.853 +08:00 [INF] Executing ObjectResult, writing value of type 'ZFS.Core.Common.BaseResponse'.
+2019-08-02 00:09:08.867 +08:00 [INF] Executed action ZFS.Api.Controls.UserController.Login (ZFS.Api) in 508.1207ms
+2019-08-02 00:09:08.867 +08:00 [INF] Request finished in 571.0547ms 200 application/json; charset=utf-8
