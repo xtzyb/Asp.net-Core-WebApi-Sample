@@ -95,8 +95,8 @@ namespace ZFS.Api
 
             //添加验证器
             services.AddTransient<IValidator<UserViewModel>, UserViewModelValidator>();
-            services.AddTransient<IValidator<UserAddViewModel>, PostAddOrUpdateResourceValidator<UserAddViewModel>>();
-            services.AddTransient<IValidator<UserUpdateViewModel>, PostAddOrUpdateResourceValidator<UserAddOrUpdateViewModel>>();
+            services.AddTransient<IValidator<UserAddViewModel>, UserAddOrUpdateResourceValidator<UserAddViewModel>>();
+            services.AddTransient<IValidator<UserUpdateViewModel>, UserAddOrUpdateResourceValidator<UserAddOrUpdateViewModel>>();
 
             services.AddTransient<IValidator<DictionariesViewModel>, DictionariesValidator>();
 

@@ -11,23 +11,30 @@ namespace ZFS.EFCore.Resources.Validator
 
     }
 
-    public class PostAddOrUpdateResourceValidator<T> : AbstractValidator<T> where T : UserAddOrUpdateViewModel
+    public class UserAddOrUpdateResourceValidator<T> : AbstractValidator<T> where T : UserAddOrUpdateViewModel
     {
-        public PostAddOrUpdateResourceValidator()
+        public UserAddOrUpdateResourceValidator()
         {
-            RuleFor(x => x.Account)
-                .NotNull()
-                .WithName("登录名")
-                .WithMessage("required|{PropertyName}是必填的")
-                .MinimumLength(5)
-                .WithMessage("minlength|{PropertyName}的最小长度是{MinLength}");
+            //RuleFor(x => x.Account)
+            //    .NotNull()
+            //    .WithName("登录名")
+            //    .WithMessage("required|{PropertyName}是必填的")
+            //    .MinimumLength(3)
+            //    .WithMessage("minlength|{PropertyName}的最小长度是{MinLength}");
 
-            RuleFor(x => x.Password)
-                .NotNull()
-                .WithName("密码")
-                .WithMessage("required|{{PropertyName}是必填的")
-                .MinimumLength(6)
-                .WithMessage("minlength|{PropertyName}的最小长度是{MinLength}");
+            //RuleFor(x => x.UserName)
+            //    .NotNull()
+            //    .WithName("用户名")
+            //    .WithMessage("required|{PropertyName}是必填的")
+            //    .MinimumLength(6)
+            //    .WithMessage("minlength|{PropertyName}的最小长度是{MinLength}");
+
+            //RuleFor(x => x.Password)
+            //    .NotNull()
+            //    .WithName("密码")
+            //    .WithMessage("required|{{PropertyName}是必填的")
+            //    .MinimumLength(6)
+            //    .WithMessage("minlength|{PropertyName}的最小长度是{MinLength}");
         }
     }
 }
