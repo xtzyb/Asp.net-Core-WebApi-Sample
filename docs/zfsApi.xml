@@ -9,13 +9,6 @@
             权限定义
             </summary>
         </member>
-        <member name="M:ZFS.Api.Controls.AuthorithitemController.AddAuthItem(ZFS.Core.Entity.Authorithitem)">
-            <summary>
-            新增权限定义
-            </summary>
-            <param name="item"></param>
-            <returns></returns>
-        </member>
         <member name="T:ZFS.Api.Controls.BaseController">
             <summary>
             
@@ -43,35 +36,31 @@
             <param name="parameters">搜索</param>
             <returns></returns>
         </member>
-        <member name="M:ZFS.Api.Controls.DictionaryController.AddDictionary(ZFS.Core.Entity.Dictionaries)">
-            <summary>
-            新增字典
-            </summary>
-            <param name="item"></param>
-            <returns></returns>
-        </member>
         <member name="T:ZFS.Api.Controls.DictionaryTypeController">
             <summary>
             字典类型
             </summary>
-        </member>
-        <member name="M:ZFS.Api.Controls.DictionaryTypeController.AddDictionType(ZFS.Core.Entity.DictionaryType)">
-            <summary>
-            新增字典类型
-            </summary>
-            <param name="item"></param>
-            <returns></returns>
         </member>
         <member name="T:ZFS.Api.Controls.GroupController">
             <summary>
             用户组
             </summary>
         </member>
-        <member name="M:ZFS.Api.Controls.GroupController.AddGroup(ZFS.Core.Entity.Group)">
+        <member name="M:ZFS.Api.Controls.GroupController.#ctor(ZFS.Core.Interfaces.IUnitDbWork,ZFS.Core.Interfaces.IGroupRepository,AutoMapper.IMapper,ZFS.EFCore.Services.FilterVerification.ITypeHelperService,ZFS.EFCore.Services.OrderBys.IPropertyMappingContainer)">
             <summary>
-            新增用户组
+             用户组构造函数
             </summary>
-            <param name="item"></param>
+            <param name="work">DB Work</param>
+            <param name="repository">业务实例</param>
+            <param name="mapper">映射</param>
+            <param name="typeHelperService">字段验证</param>
+            <param name="propertyMappingContainer">排序验证</param>
+        </member>
+        <member name="M:ZFS.Api.Controls.GroupController.GetGroup(ZFS.Core.Query.GroupParameters)">
+            <summary>
+             根据用户姓名获取用户数据列表
+            </summary>
+            <param name="parameters">搜索</param>
             <returns></returns>
         </member>
         <member name="T:ZFS.Api.Controls.GroupFuncController">
@@ -79,47 +68,36 @@
             组行为
             </summary>
         </member>
-        <member name="M:ZFS.Api.Controls.GroupFuncController.AddGroupFunc(ZFS.Core.Entity.GroupFunc)">
-            <summary>
-            新增组行为
-            </summary>
-            <param name="item"></param>
-            <returns></returns>
-        </member>
         <member name="T:ZFS.Api.Controls.GroupUserController">
             <summary>
             组用户
             </summary>
-        </member>
-        <member name="M:ZFS.Api.Controls.GroupUserController.AddGroupUser(ZFS.Core.Entity.GroupUser)">
-            <summary>
-            新增组用户
-            </summary>
-            <param name="item"></param>
-            <returns></returns>
         </member>
         <member name="T:ZFS.Api.Controls.LoginlogController">
             <summary>
             登录记录
             </summary>
         </member>
-        <member name="M:ZFS.Api.Controls.LoginlogController.AddLoginlog(ZFS.Core.Entity.LoginLog)">
-            <summary>
-            新增登录数据
-            </summary>
-            <param name="item"></param>
-            <returns></returns>
-        </member>
         <member name="T:ZFS.Api.Controls.MenuController">
             <summary>
             系统菜单
             </summary>
         </member>
-        <member name="M:ZFS.Api.Controls.MenuController.AddMenu(ZFS.Core.Entity.Menu)">
+        <member name="M:ZFS.Api.Controls.MenuController.#ctor(ZFS.Core.Interfaces.IUnitDbWork,ZFS.Core.Interfaces.IMenuRepository,AutoMapper.IMapper,ZFS.EFCore.Services.FilterVerification.ITypeHelperService,ZFS.EFCore.Services.OrderBys.IPropertyMappingContainer)">
             <summary>
-            新增系统菜单
+             
             </summary>
-            <param name="item"></param>
+            <param name="work">DB Work</param>
+            <param name="repository">业务实例</param>
+            <param name="mapper">映射</param>
+            <param name="typeHelperService">字段验证</param>
+            <param name="propertyMappingContainer">排序验证</param>
+        </member>
+        <member name="M:ZFS.Api.Controls.MenuController.GetMenu(ZFS.Core.Query.MenuParameters)">
+            <summary>
+             根据用户姓名获取用户数据列表
+            </summary>
+            <param name="parameters">搜索</param>
             <returns></returns>
         </member>
         <member name="T:ZFS.Api.Controls.UserController">

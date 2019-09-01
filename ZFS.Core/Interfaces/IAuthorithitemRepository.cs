@@ -5,7 +5,7 @@ using ZFS.Core.Entity;
 
 namespace ZFS.Core.Interfaces
 {
-    public interface IAuthorithitemRepository : IBaseRepository<Authorithitem>
+    public interface IAuthorithitemRepository 
     {
     }
 }

@@ -7,7 +7,7 @@ using ZFS.EFCore.DbFile;
 
 namespace ZFS.EFCore.Repositories
 {
-    public class AuthorithitemRepository : BaseRepository<Authorithitem>, IAuthorithitemRepository
+    public class AuthorithitemRepository : BaseRepository, IAuthorithitemRepository
     {
         public AuthorithitemRepository(ZfsDbContext context) : base(context)
         {

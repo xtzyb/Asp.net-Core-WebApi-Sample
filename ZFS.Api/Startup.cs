@@ -97,14 +97,14 @@ namespace ZFS.Api
             services.AddTransient<IValidator<UserViewModel>, UserViewModelValidator>();
             services.AddTransient<IValidator<UserAddViewModel>, UserAddOrUpdateResourceValidator<UserAddViewModel>>();
             services.AddTransient<IValidator<UserUpdateViewModel>, UserAddOrUpdateResourceValidator<UserAddOrUpdateViewModel>>();
-
             services.AddTransient<IValidator<DictionariesViewModel>, DictionariesValidator>();
-
-
-            //自定义排序
+            
+            //MapContainer
             var propertyMappingContainer = new PropertyMappingContainer();
             propertyMappingContainer.Register<UserPropertyMapping>();
-            propertyMappingContainer.Register<DictionariesMapping>();
+            propertyMappingContainer.Register<DictPropertyMapping>();
+            propertyMappingContainer.Register<GroupPropertyMappting>();
+            propertyMappingContainer.Register<MenuPropertyMapping>();
             services.AddSingleton<IPropertyMappingContainer>(propertyMappingContainer);
 
             services.AddTransient<ITypeHelperService, TypeHelperService>();

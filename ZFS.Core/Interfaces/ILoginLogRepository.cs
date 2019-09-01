@@ -5,7 +5,7 @@ using ZFS.Core.Entity;
 
 namespace ZFS.Core.Interfaces
 {
-    public interface ILoginLogRepository : IBaseRepository<LoginLog>
+    public interface ILoginLogRepository 
     {
     }
 }

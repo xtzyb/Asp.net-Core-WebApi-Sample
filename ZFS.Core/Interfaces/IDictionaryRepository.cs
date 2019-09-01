@@ -8,7 +8,7 @@ using ZFS.Core.Query;
 
 namespace ZFS.Core.Interfaces
 {
-    public interface IDictionaryRepository : IBaseRepository<Dictionaries>
+    public interface IDictionaryRepository 
     {
         Task<PaginatedList<Dictionaries>> GetAllDicAsync(DictionariesParameters parameters);
     }

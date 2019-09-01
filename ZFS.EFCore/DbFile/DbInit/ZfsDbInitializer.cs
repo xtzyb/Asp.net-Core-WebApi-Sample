@@ -21,12 +21,12 @@ namespace ZFS.EFCore.DbFile.DbInit
                     #region 添加用户种子数据
 
                     var Users = new[] {
-                    new User(){ Account="admin",UserName="管理员",Address="广州",Tel="", FlagAdmin='1', Password="123"},
-                    new User(){ Account="test",UserName="测试员",Address="深圳",Tel="", FlagAdmin='1', Password="123"},
-                    new User(){ Account="qc",UserName="质检部",Address="清远",Tel="", FlagAdmin='1', Password="123"},
-                    new User(){ Account="pm",UserName="项目经理",Address="惠州",Tel="", FlagAdmin='1', Password="123"},
-                    new User(){ Account="joy",UserName="阿杰",Address="USA",Tel="", FlagAdmin='1', Password="123"},
-                    new User(){ Account="stive",UserName="斯蒂文",Address="USA",Tel="", FlagAdmin='1', Password="123"}
+                    new User(){ Account="admin",UserName="管理员",Address="广州",Tel="", FlagAdmin="1", Password="123"},
+                    new User(){ Account="test",UserName="测试员",Address="深圳",Tel="", FlagAdmin="1", Password="123"},
+                    new User(){ Account="qc",UserName="质检部",Address="清远",Tel="", FlagAdmin="1", Password="123"},
+                    new User(){ Account="pm",UserName="项目经理",Address="惠州",Tel="", FlagAdmin="1", Password="123"},
+                    new User(){ Account="joy",UserName="阿杰",Address="USA",Tel="", FlagAdmin="1", Password="123"},
+                    new User(){ Account="stive",UserName="斯蒂文",Address="USA",Tel="", FlagAdmin="1", Password="123"}
                 };
                     foreach (var u in Users)
                     {

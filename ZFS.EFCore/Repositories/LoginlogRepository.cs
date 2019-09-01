@@ -7,7 +7,7 @@ using ZFS.EFCore.DbFile;
 
 namespace ZFS.EFCore.Repositories
 {
-    public class LoginlogRepository : BaseRepository<LoginLog>, ILoginLogRepository
+    public class LoginlogRepository : BaseRepository, ILoginLogRepository
     {
         public LoginlogRepository(ZfsDbContext context) : base(context)
         {

@@ -7,9 +7,9 @@ using ZFS.EFCore.Services.OrderBys;
 
 namespace ZFS.EFCore.Resources.OrderByMapping
 {
-    public class DictionariesMapping : PropertyMapping<DictionariesViewModel, Dictionaries>
+    public class DictPropertyMapping : PropertyMapping<DictionariesViewModel, Dictionaries>
     {
-        public DictionariesMapping() : base(
+        public DictPropertyMapping() : base(
             new Dictionary<string, List<MappedProperty>>
                 (StringComparer.OrdinalIgnoreCase)
             {

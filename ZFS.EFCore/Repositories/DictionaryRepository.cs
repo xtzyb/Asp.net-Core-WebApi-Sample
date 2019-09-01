@@ -16,7 +16,7 @@ using ZFS.EFCore.Services.OrderBys;
 namespace ZFS.EFCore.Repositories
 {
 
-    public class DictionaryRepository : BaseRepository<Dictionaries>, IDictionaryRepository
+    public class DictionaryRepository : BaseRepository, IDictionaryRepository
     {
         private readonly IPropertyMappingContainer propertyMappingContainer;
 

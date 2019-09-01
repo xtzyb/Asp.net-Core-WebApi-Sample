@@ -122,7 +122,7 @@ namespace ZFS.Api.Controls
                 newUser.CreateTime = DateTime.Now;
                 newUser.LastLoginTime = DateTime.Now;
                 newUser.LastLogouTime = DateTime.Now;
-                repository.AddModel(newUser);
+                repository.AddUserAsync(newUser);
 
                 if (!await work.SaveAsync())
                 {
@@ -186,7 +186,7 @@ namespace ZFS.Api.Controls
                 {
                     return Ok(new BaseResponse() { success = false, message = "未能找到该用户信息!" });
                 }
-                repository.Delete(post);
+                repository.DeleteAsync(post);
 
                 if (!await work.SaveAsync())
                 {

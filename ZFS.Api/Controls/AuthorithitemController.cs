@@ -23,18 +23,5 @@ namespace ZFS.Api.Controls
             this.repository = repository;
         }
         
-
-        /// <summary>
-        /// 新增权限定义
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        [HttpPost, SwgApi]
-        public async Task<IActionResult> AddAuthItem(Authorithitem item)
-        {
-            repository.AddModel(item);
-            await work.SaveAsync();
-            return Ok();
-        }
     }
 }

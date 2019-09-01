@@ -74,18 +74,6 @@ public class DictionaryController : BaseController
                 return Ok(new BaseResponse() { success = false, message = ex.Message });
             }
         }
-
-        /// <summary>
-        /// 新增字典
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        [HttpPost]
-        public async Task<IActionResult> AddDictionary(Dictionaries item)
-        {
-            repository.AddModel(item);
-            await work.SaveAsync();
-            return Ok();
-        }
+        
     }
 }

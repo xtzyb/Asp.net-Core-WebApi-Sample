@@ -8,7 +8,7 @@ using ZFS.Core.Query;
 
 namespace ZFS.Core.Interfaces
 {
-    public interface IUserRepository : IBaseRepository<User>
+    public interface IUserRepository 
     {
         Task<User> LoginAsync(string account, string passWord);
 
@@ -18,8 +18,8 @@ namespace ZFS.Core.Interfaces
 
         Task<User> GetUserByIdAsync(int id);
 
-        void AddPostAsync(User user);
-        void Delete(User user);
-        void Update(User user);
+        void AddUserAsync(User user);
+        void DeleteAsync(User user);
+        void UpdateAsync(User user);
     }
 }

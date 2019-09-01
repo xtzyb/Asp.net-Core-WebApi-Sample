@@ -7,7 +7,7 @@ using ZFS.EFCore.DbFile;
 
 namespace ZFS.EFCore.Repositories
 {
-    public class GroupUserRepository : BaseRepository<GroupUser>, IGroupUserRepository
+    public class GroupUserRepository : BaseRepository, IGroupUserRepository
     {
         public GroupUserRepository(ZfsDbContext context) : base(context)
         {

@@ -28,9 +28,9 @@ namespace ZFS.EFCore.Resources.ViewModel
 
         public DateTime CreateTime { get; set; }
 
-        public char FlagAdmin { get; set; }
+        public string FlagAdmin { get; set; }
 
-        public char FlagOnline { get; set; }
+        public string FlagOnline { get; set; }
 
         public int LoginCounter { get; set; }
     }
@@ -67,9 +67,9 @@ namespace ZFS.EFCore.Resources.ViewModel
 
         public DateTime CreateTime { get; set; }
 
-        public char FlagAdmin { get; set; }
+        public string FlagAdmin { get; set; }
 
-        public char FlagOnline { get; set; }
+        public string FlagOnline { get; set; }
 
         public int LoginCounter { get; set; }
     }

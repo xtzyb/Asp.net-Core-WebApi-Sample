@@ -15,7 +15,7 @@ using ZFS.EFCore.Resources.ViewModel;
 
 namespace ZFS.EFCore.Repositories
 {
-    public class UserRepository : BaseRepository<User>, IUserRepository
+    public class UserRepository : BaseRepository, IUserRepository
     {
         private readonly IPropertyMappingContainer propertyMappingContainer;
 
@@ -24,12 +24,12 @@ namespace ZFS.EFCore.Repositories
             this.propertyMappingContainer = propertyMappingContainer;
         }
 
-        public void AddPostAsync(User user)
+        public void AddUserAsync(User user)
         {
             context.Users.AddAsync(user);
         }
 
-        public void Delete(User user)
+        public void DeleteAsync(User user)
         {
             context.Remove(user);
         }
@@ -81,7 +81,7 @@ namespace ZFS.EFCore.Repositories
             return result;
         }
 
-        public void Update(User user)
+        public void UpdateAsync(User user)
         {
             context.Entry(user).State = EntityState.Modified;
         }

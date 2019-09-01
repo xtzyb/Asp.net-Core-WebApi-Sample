@@ -5,7 +5,7 @@ using ZFS.Core.Entity;
 
 namespace ZFS.Core.Interfaces
 {
-    public interface IGroupFuncRepository : IBaseRepository<GroupFunc>
+    public interface IGroupFuncRepository 
     {
     }
 }

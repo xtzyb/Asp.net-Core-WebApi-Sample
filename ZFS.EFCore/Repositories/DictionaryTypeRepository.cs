@@ -7,7 +7,7 @@ using ZFS.EFCore.DbFile;
 
 namespace ZFS.EFCore.Repositories
 {
-    public class DictionaryTypeRepository : BaseRepository<DictionaryType>, IDictionaryTypeRepository
+    public class DictionaryTypeRepository : BaseRepository, IDictionaryTypeRepository
     {
         public DictionaryTypeRepository(ZfsDbContext context) : base(context)
         {

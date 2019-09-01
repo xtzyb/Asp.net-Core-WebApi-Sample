@@ -21,18 +21,5 @@ namespace ZFS.Api.Controls
             this.repository = repository;
         }
         
-
-        /// <summary>
-        /// 新增字典类型
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
-        [HttpPost]
-        public async Task<IActionResult> AddDictionType(DictionaryType item)
-        {
-            repository.AddModel(item);
-            await work.SaveAsync();
-            return Ok();
-        }
     }
 }
